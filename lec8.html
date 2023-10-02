@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <!-- <section>
+    <section>
         <form>
             <label>Enter Your ID: <input type="text"></label><br>
             <label>Enter your password: <input type="text"></label><br>
@@ -35,18 +35,59 @@
             </select>
             <br><br>
             <label for="description">Description: </label>
-            <textarea style="resize: none;" name="Description" id="description" cols="105" rows="10"
+            <textarea style="resize: none;" name="Description" id="description" cols="30" rows="10"
                 placeholder="Write here.."></textarea>
         </fieldset>
 
-    </section> -->
+        <br><br>
 
     <form>
         <label for="textField1">TextField: </label>
         <input type="text" name="textField1" id="textField1">
         <br><br>
         <input type="button" name="Submit1" id="button1" value="Submit">
+
+        <fieldset>
+            <legend>Choose any one</legend>
+            <div>
+                <input type="radio" name="Stuff" id="book" checked>
+                <label for="book">book</label>
+            </div>
+            <div>
+                <input type="radio" name="Stuff" id="pen">
+                <label for="pen">Pen</label>
+            </div>
+            <div>
+                <input type="radio" name="Stuff" id="pencil">
+                <label for="pencil">Pencil</label>
+            </div>
+            <div>
+                <input type="radio" name="Stuff" id="paperclip">
+                <label for="paperclip">Paperclips</label>
+            </div>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>What do you prefer?</legend>
+            <div>
+                <input type="checkbox" name="preference" id="traveling">
+                <label for="traveling">Traveling?</label>
+            </div>
+            <div>
+                <input type="checkbox" name="preference" id="riding">
+                <label for="riding">Riding?</label>
+            </div>
+            <div>
+                <input type="checkbox" name="preference" id="studying">
+                <label for="studying">Studying?</label>
+            </div>
+            <div>
+                <input type="checkbox" name="preference" id="nothing">
+                <label for="nothing">Nothing</label>
+            </div>
+        </fieldset>
     </form>
+    </section>
 
 </body>
 
