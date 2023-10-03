@@ -54,7 +54,7 @@
         </form>
     </section>
 
-    <!-------------------------------->
+    <!-------------------+------------------------>
     <br><br>
 
     <section style="background-color: azure;">
@@ -116,6 +116,54 @@
             </div>
             <button>Submit Application</button>
         </form>
+    </section>
+
+    <!-------------------------------------------->
+    <br><br>
+
+    <section>
+        <h1>Complex Form</h1>
+        <div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name: </label>
+                <input type="text" name="Name" id="name">
+                <label for="email">Email: </label>
+                <input type="email" name="Email" id="email">
+                <label for="phone">Phone: </label>
+                <input type="tel" name="P-no" id="phone">
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="DoB" id="dob">
+                <label for="gender">Gender: </label>
+                <input type="radio" name="Gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="female">
+                <label for="female">Female</label>
+                <label for="country">Country</label>
+                <select name="Country" id="country">
+                    <option value="chose">Chose</option>
+                    <option value="india">India</option>
+                    <option value="china">China</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="france">France</option>
+                </select>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="street">Street: </label>
+                <input type="text" name="Street" id="street">
+                <label for="city">City: </label>
+                <input type="text" name="City" id="city">
+                <label for="state">State</label>
+                <input type="text" name="State" id="state">
+                <label for="zip-code">Zip-Code: </label>
+                <input type="number" name="Zip-Code" id="zip-code">
+            </fieldset>
+        </div>
+        <div></div>
     </section>
 
 </body>
